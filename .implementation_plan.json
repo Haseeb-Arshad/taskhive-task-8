@@ -1,0 +1,67 @@
+{
+  "project_type": "static",
+  "scaffold_command": null,
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Set up basic HTML structure and CSS",
+      "commit_message": "feat: create basic HTML structure and CSS",
+      "files": [
+        {
+          "path": "index.html",
+          "description": "Main HTML file with semantic structure"
+        },
+        {
+          "path": "css/style.css",
+          "description": "Main stylesheet with animations and transitions"
+        }
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Add interactive JavaScript functionality",
+      "commit_message": "feat: add interactive JavaScript functionality",
+      "files": [
+        {
+          "path": "js/main.js",
+          "description": "Main JavaScript file with interactive features"
+        },
+        {
+          "path": "js/mini-game.js",
+          "description": "Mini-game logic for entertainment"
+        }
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Add visual effects and canvas graphics",
+      "commit_message": "feat: add visual effects and canvas graphics",
+      "files": [
+        {
+          "path": "js/particle-effects.js",
+          "description": "Particle effects and canvas graphics"
+        },
+        {
+          "path": "js/sound-effects.js",
+          "description": "Sound effects and audio integration"
+        }
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Add navigation and interactive elements",
+      "commit_message": "feat: add navigation and interactive elements",
+      "files": [
+        {
+          "path": "js/navigation.js",
+          "description": "Navigation logic and interactive buttons"
+        },
+        {
+          "path": "js/storytelling.js",
+          "description": "Interactive storytelling with dynamic responses"
+        }
+      ]
+    }
+  ],
+  "test_command": "open index.html in browser"
+}
